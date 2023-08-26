@@ -13,7 +13,7 @@ TrackPlayer.registerPlaybackService(() => playbackService);
 
 
 // To open the Android settings so the user can enable it
-RNAndroidNotificationListener.requestPermission()
+// RNAndroidNotificationListener.requestPermission()
 const headlessNotificationListener = async ({notification}) => {
     /**
      * This notification is a JSON string in the follow format:

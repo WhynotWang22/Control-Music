@@ -1,0 +1,337 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.music"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\softWare\Project\Notification-Listener\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\softWare\Project\Notification-Listener\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+13-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:4:5-80
+13-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:4:22-77
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:5:5-77
+14-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:5:22-74
+15    <uses-permission android:name="android.permission.ACCEPT_HANDOVER" />
+15-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:6:4-73
+15-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:6:21-70
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:7:3-83
+16-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:7:20-80
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:8:3-79
+17-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:8:20-76
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:9:3-77
+18-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:9:20-74
+19    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+19-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:10:3-78
+19-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:10:20-75
+20    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+20-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:11:3-77
+20-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:11:20-74
+21    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
+21-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:12:3-84
+21-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:12:20-81
+22    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+22-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:13:3-75
+22-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:13:20-72
+23    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+23-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:14:3-76
+23-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:14:20-73
+24    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+24-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:15:3-74
+24-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:15:20-71
+25    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+25-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:16:3-71
+25-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:16:20-68
+26    <uses-permission android:name="android.permission.BODY_SENSORS" />
+26-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:17:3-69
+26-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:17:20-66
+27    <uses-permission android:name="android.permission.BODY_SENSORS_BACKGROUND" />
+27-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:18:3-80
+27-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:18:20-77
+28    <uses-permission android:name="android.permission.CALL_PHONE" />
+28-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:19:3-67
+28-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:19:20-64
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:20:3-63
+29-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:20:20-60
+30    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+30-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:21:3-69
+30-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:21:20-66
+31    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
+31-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:22:3-76
+31-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:22:20-73
+32    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+32-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:23:3-75
+32-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:23:20-72
+33    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+33-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:24:3-79
+33-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:24:20-76
+34    <uses-permission android:name="android.permission.READ_CALENDAR" />
+34-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:25:3-70
+34-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:25:20-67
+35    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+35-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:26:3-70
+35-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:26:20-67
+36    <uses-permission android:name="android.permission.READ_CONTACTS" />
+36-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:27:3-70
+36-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:27:20-67
+37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+37-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:28:3-78
+37-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:28:20-75
+38    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+38-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:29:3-73
+38-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:29:20-70
+39    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+39-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:30:3-74
+39-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:30:20-71
+40    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+40-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:31:3-73
+40-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:31:20-70
+41    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+41-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:32:3-75
+41-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:32:20-72
+42    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+42-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:33:3-73
+42-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:33:20-70
+43    <uses-permission android:name="android.permission.READ_SMS" />
+43-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:34:3-65
+43-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:34:20-62
+44    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+44-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:35:3-68
+44-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:35:20-65
+45    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+45-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:36:3-68
+45-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:36:20-65
+46    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+46-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:37:3-73
+46-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:37:20-70
+47    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+47-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:38:3-69
+47-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:38:20-66
+48    <uses-permission android:name="android.permission.SEND_SMS" />
+48-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:39:3-65
+48-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:39:20-62
+49    <uses-permission android:name="android.permission.USE_SIP" />
+49-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:40:3-64
+49-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:40:20-61
+50    <uses-permission android:name="android.permission.UWB_RANGING" />
+50-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:41:3-68
+50-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:41:20-65
+51    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+51-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:42:3-71
+51-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:42:20-68
+52    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+52-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:43:3-71
+52-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:43:20-68
+53    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+53-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:44:3-71
+53-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:44:20-68
+54    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+54-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:45:3-79
+54-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:45:20-76
+55    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+55-->[com.facebook.flipper:flipper:0.182.0] C:\Users\Tyah\.gradle\caches\transforms-3\e13f88164840fe641a466d05cd8edac7\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:5-76
+55-->[com.facebook.flipper:flipper:0.182.0] C:\Users\Tyah\.gradle\caches\transforms-3\e13f88164840fe641a466d05cd8edac7\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:22-73
+56    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+56-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-93
+56-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-90
+57    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+57-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+57-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+58    <uses-permission android:name="android.permission.WAKE_LOCK" />
+58-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+58-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+59    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+59-->[com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Tyah\.gradle\caches\transforms-3\3545c201b20b526647e3b8ec22a47bf8\transformed\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:24:5-79
+59-->[com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Tyah\.gradle\caches\transforms-3\3545c201b20b526647e3b8ec22a47bf8\transformed\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:24:22-76
+60
+61    <permission
+61-->[androidx.core:core:1.9.0] C:\Users\Tyah\.gradle\caches\transforms-3\6071112da32bfbae80caeb5ecfa6fe8d\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+62        android:name="com.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+62-->[androidx.core:core:1.9.0] C:\Users\Tyah\.gradle\caches\transforms-3\6071112da32bfbae80caeb5ecfa6fe8d\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+63        android:protectionLevel="signature" />
+63-->[androidx.core:core:1.9.0] C:\Users\Tyah\.gradle\caches\transforms-3\6071112da32bfbae80caeb5ecfa6fe8d\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+64
+65    <uses-permission android:name="com.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+65-->[androidx.core:core:1.9.0] C:\Users\Tyah\.gradle\caches\transforms-3\6071112da32bfbae80caeb5ecfa6fe8d\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+65-->[androidx.core:core:1.9.0] C:\Users\Tyah\.gradle\caches\transforms-3\6071112da32bfbae80caeb5ecfa6fe8d\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+66
+67    <queries>
+67-->[androidx.test:runner:1.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\e7f43592051571add194abf4324589b2\transformed\runner-1.4.0\AndroidManifest.xml:24:5-28:15
+68        <package android:name="androidx.test.orchestrator" />
+68-->[androidx.test:runner:1.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\e7f43592051571add194abf4324589b2\transformed\runner-1.4.0\AndroidManifest.xml:25:9-62
+68-->[androidx.test:runner:1.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\e7f43592051571add194abf4324589b2\transformed\runner-1.4.0\AndroidManifest.xml:25:18-59
+69        <package android:name="androidx.test.services" />
+69-->[androidx.test:runner:1.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\e7f43592051571add194abf4324589b2\transformed\runner-1.4.0\AndroidManifest.xml:26:9-58
+69-->[androidx.test:runner:1.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\e7f43592051571add194abf4324589b2\transformed\runner-1.4.0\AndroidManifest.xml:26:18-55
+70        <package android:name="com.google.android.apps.common.testing.services" />
+70-->[androidx.test:runner:1.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\e7f43592051571add194abf4324589b2\transformed\runner-1.4.0\AndroidManifest.xml:27:9-83
+70-->[androidx.test:runner:1.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\e7f43592051571add194abf4324589b2\transformed\runner-1.4.0\AndroidManifest.xml:27:18-80
+71    </queries>
+72
+73    <application
+73-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:46:5-66:19
+74        android:name="com.music.MainApplication"
+74-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:47:7-38
+75        android:allowBackup="false"
+75-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:51:7-34
+76        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+76-->[androidx.core:core:1.9.0] C:\Users\Tyah\.gradle\caches\transforms-3\6071112da32bfbae80caeb5ecfa6fe8d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+77        android:debuggable="true"
+78        android:icon="@mipmap/ic_launcher"
+78-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:49:7-41
+79        android:label="@string/app_name"
+79-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:48:7-39
+80        android:roundIcon="@mipmap/ic_launcher_round"
+80-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:50:7-52
+81        android:testOnly="true"
+82        android:theme="@style/AppTheme"
+82-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:52:7-38
+83        android:usesCleartextTraffic="true" >
+83-->E:\softWare\Project\Notification-Listener\android\app\src\debug\AndroidManifest.xml:8:9-44
+84        <activity
+84-->E:\softWare\Project\Notification-Listener\android\app\src\debug\AndroidManifest.xml:11:9-111
+85            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+85-->E:\softWare\Project\Notification-Listener\android\app\src\debug\AndroidManifest.xml:11:19-83
+86            android:exported="false" />
+86-->E:\softWare\Project\Notification-Listener\android\app\src\debug\AndroidManifest.xml:11:84-108
+87        <activity
+87-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:53:7-64:18
+88            android:name="com.music.MainActivity"
+88-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:54:9-37
+89            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+89-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:56:9-118
+90            android:exported="true"
+90-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:59:9-32
+91            android:label="@string/app_name"
+91-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:55:9-41
+92            android:launchMode="singleTask"
+92-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:57:9-40
+93            android:windowSoftInputMode="adjustResize" >
+93-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:58:9-51
+94            <intent-filter>
+94-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:60:9-63:25
+95                <action android:name="android.intent.action.MAIN" />
+95-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:61:13-65
+95-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:61:21-62
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:62:13-73
+97-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:62:23-70
+98            </intent-filter>
+99        </activity>
+100
+101        <service android:name="com.reactnativetrackplayer.service.MusicService" />
+101-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:65:17-91
+101-->E:\softWare\Project\Notification-Listener\android\app\src\main\AndroidManifest.xml:65:26-88
+102        <service
+102-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-21:19
+103            android:name="com.lesimoes.androidnotificationlistener.RNAndroidNotificationListener"
+103-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-98
+104            android:exported="true"
+104-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-36
+105            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+105-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-87
+106            <intent-filter>
+106-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:29
+107                <action android:name="android.service.notification.NotificationListenerService" />
+107-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-99
+107-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:25-96
+108            </intent-filter>
+109        </service>
+110        <service android:name="com.lesimoes.androidnotificationlistener.RNAndroidNotificationListenerHeadlessJsTaskService" />
+110-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-127
+110-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:18-124
+111
+112        <receiver
+112-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-34:20
+113            android:name="com.lesimoes.androidnotificationlistener.BootUpReceiver"
+113-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-83
+114            android:enabled="true"
+114-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-35
+115            android:exported="true"
+115-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
+116            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+116-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-75
+117            <intent-filter>
+117-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-33:29
+118                <action android:name="android.intent.action.BOOT_COMPLETED" />
+118-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-79
+118-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:25-76
+119
+120                <category android:name="android.intent.category.DEFAULT" />
+120-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-76
+120-->[:react-native-android-notification-listener] E:\softWare\Project\Notification-Listener\node_modules\react-native-android-notification-listener\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:27-73
+121            </intent-filter>
+122        </receiver> <!-- The main service, handles playback, playlists and media buttons -->
+123        <service
+123-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-20:19
+124            android:name="com.doublesymmetry.trackplayer.service.MusicService"
+124-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-79
+125            android:enabled="true"
+125-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+126            android:exported="false" >
+126-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+127            <intent-filter>
+127-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-19:29
+128                <action android:name="android.intent.action.MEDIA_BUTTON" />
+128-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-77
+128-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:25-74
+129            </intent-filter>
+130        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+131        <receiver
+131-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-29:20
+132            android:name="androidx.media.session.MediaButtonReceiver"
+132-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-70
+133            android:exported="true" >
+133-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-36
+134            <intent-filter>
+134-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-19:29
+135                <action android:name="android.intent.action.MEDIA_BUTTON" />
+135-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-77
+135-->[:react-native-track-player] E:\softWare\Project\Notification-Listener\node_modules\react-native-track-player\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:25-74
+136            </intent-filter>
+137        </receiver>
+138
+139        <provider
+139-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tyah\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+140            android:name="androidx.startup.InitializationProvider"
+140-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tyah\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+141            android:authorities="com.music.androidx-startup"
+141-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tyah\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+142            android:exported="false" >
+142-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tyah\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+143            <meta-data
+143-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tyah\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+144                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+144-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tyah\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+145                android:value="androidx.startup" />
+145-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Tyah\.gradle\caches\transforms-3\223146ef33e3aa619e8b04649706e145\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+146            <meta-data
+146-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+147                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+147-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+148                android:value="androidx.startup" />
+148-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Tyah\.gradle\caches\transforms-3\d5d05479173d466a6bd0989b3b3e5ef4\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+149        </provider>
+150
+151        <meta-data
+151-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Tyah\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+152            android:name="com.facebook.soloader.enabled"
+152-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Tyah\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+153            android:value="false" />
+153-->[com.facebook.soloader:soloader:0.10.5] C:\Users\Tyah\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+154    </application>
+155
+156</manifest>
